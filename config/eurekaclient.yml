@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: eurekaclient 
+  #RabbitMQ消息队列的配置
+  rabbitmq:
+    host: localhost
+    port: 5762
+    username: guest
+    password: guest
 eureka:
   instance:
     prefer-ip-address: true
