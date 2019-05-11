@@ -3,3 +3,7 @@ eureka:
     prefer-ip-address: true
     hostname: ${spring.cloud.client.ipAddress}
     instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port}
+
+security:
+  basic:
+    enabled: false
